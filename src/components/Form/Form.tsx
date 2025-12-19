@@ -109,8 +109,8 @@ const Form = () => {
         <div className="flex justify-end mt-2">
           <button
             disabled={isLoading}
-            className={`rounded-xs font-semibold text-sm border-2 border-primary-black px-5 py-3 cursor-pointer hover:bg-primary-black hover:text-white transition-all ${
-              isLoading ? "bg-primary-black text-white" : ""
+            className={`rounded-xs font-semibold text-sm border-2 border-primary-black px-5 py-3  cursor-pointer hover:bg-primary-black hover:text-white transition-all ${
+              isLoading ? "bg-primary-black text-white cursor-not-allowed!" : ""
             }`}
           >
             {isLoading ? "Loading..." : "Register"}

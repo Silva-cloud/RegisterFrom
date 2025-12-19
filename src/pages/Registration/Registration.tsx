@@ -1,18 +1,25 @@
 import Card from "../../components/Card/Card";
 import Form from "../../components/Form/Form";
 import Layout from "../../Layout/Layout";
+import Hamburger from "../../assets/mdi--hamburger-menu.svg";
 
 const Registration = () => {
   return (
     <Layout>
-      <Card className="p-12 absolute top-1/2 start-1/2 bg-white -translate-1/2 flex flex-col gap-3 w-1/3">
+      <Card className="p-0! py-6! absolute top-0 w-full h-full sm:h-auto sm:top-1/2 sm:start-1/2 sm:-translate-1/2 sm:max-w-sm md:max-w-md   bg-white  flex flex-col gap-3   ">
+        <div className="px-6 mb-5 flex w-full items-center justify-between sm:hidden">
+          <Card.Title className="text-2xl">Logo</Card.Title>
+          <button>
+            <img src={Hamburger} alt="Hamburger Menu" />
+          </button>
+        </div>
         <Card.Header>
-          <Card.Title className="text-3xl">Welcome</Card.Title>
-          <Card.Description>
+          <Card.Title className="text-2xl">Welcome</Card.Title>
+          <Card.Description className="px-6">
             Fill the form below to create your account
           </Card.Description>
         </Card.Header>
-        <Card.Content>
+        <Card.Content className="px-6">
           <Form />
         </Card.Content>
       </Card>

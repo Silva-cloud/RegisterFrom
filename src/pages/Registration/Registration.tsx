@@ -6,7 +6,7 @@ import Hamburger from "../../assets/mdi--hamburger-menu.svg";
 const Registration = () => {
   return (
     <Layout>
-      <Card className="p-0! py-6! absolute top-0 w-full h-full sm:h-auto sm:top-1/2 sm:start-1/2 sm:-translate-1/2 sm:max-w-sm md:max-w-md   bg-white  flex flex-col gap-3   ">
+      <Card className="p-0! sm:py-6! md:py-12! absolute top-0 w-full h-full max-h-screen  overflow-auto sm:h-auto sm:top-1/2 sm:start-1/2 sm:-translate-1/2 sm:max-w-sm md:max-w-md   bg-white  flex flex-col gap-3   ">
         <div className="px-6 mb-5 flex w-full items-center justify-between sm:hidden">
           <Card.Title className="text-2xl">Logo</Card.Title>
           <button>

@@ -3,12 +3,9 @@ import type { ReactNode } from "react";
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="relative h-screen">
-      <header className="p-8 flex items-center justify-between">
+      <header className="p-7 flex items-center justify-between">
         <h1 className={`text-2xl font-bold cursor-pointer`}>LOGO</h1>
         <nav className="flex gap-8">
-          <div className="font-bold text-gray-600 hover:text-primary-black transition-colors cursor-pointer">
-            Link
-          </div>
           <div className="font-bold text-gray-600 hover:text-primary-black transition-colors cursor-pointer">
             Link
           </div>

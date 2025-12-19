@@ -7,7 +7,7 @@ const Registration = () => {
   return (
     <Layout>
       <Card className="p-0! sm:py-6! md:py-12! absolute top-0 w-full h-full max-h-screen  overflow-auto sm:h-auto sm:top-1/2 sm:start-1/2 sm:-translate-1/2 sm:max-w-sm md:max-w-md   bg-white  flex flex-col gap-3   ">
-        <div className="px-6 mb-5 flex w-full items-center justify-between sm:hidden">
+        <div className="px-6 mb-5 flex w-full items-center justify-between sm:hidden mt-2">
           <Card.Title className="text-2xl">Logo</Card.Title>
           <button>
             <img src={Hamburger} alt="Hamburger Menu" />

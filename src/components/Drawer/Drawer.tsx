@@ -11,7 +11,7 @@ const Drawer = ({
 }) => {
   return (
     <div
-      className={`h-dvh bg-white fixed w-1/4 top-0 p-4 end-0 z-20  ${show ? "block" : "hidden"} ${className}`}
+      className={`h-dvh bg-white fixed w-5/12 top-0 p-4 end-0 z-20  ${show ? "block" : "hidden"} ${className}`}
     >
       {children}
     </div>
